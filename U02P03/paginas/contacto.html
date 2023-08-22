@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/index.css">
+
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Los pasteles de Lucho</h1>
+    </header>
+    <div class="container">
+        <!-- Navegación / cotenedor izquierdo -->
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Contenedor principal -->
+        <main>
+
+            <form>
+                <table>
+                    <tr>
+                        <td><label for="Nombre">Nombre:</label></td>
+                        <td> <input type="text" id="Nombre" required></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="Apellido">Apellido:</label></td>
+                        <td> <input type="text" id="Apellido" required> </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="Telefono">Teléfono:</label></td>
+                        <td><input type="number" id="Telefono"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="Email">Email:</label></td>
+                        <td> <input type="email" id="Email" required></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="seleccionable">Seleccione su pruducto:</label></td>
+                        <td><select name="seleccionable" id="seleccionable">
+                                <option value="Chocotorta">Chocotorta</option>
+                                <option value="LemonPie">Lemon Pie</option>
+                                <option value="TartaFrutal">Tarta Frutal</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Ingrese un comentario" size="60" required maxlength="50"></td>
+                        <td><input type="submit" value="Enviar"></td>  
+                    </tr>
+                </table>
+            </form>
+
+        </main>
+
+    </div>
+    <!-- Pie de Página-->
+    <footer>
+        <p>WhatsApp +54934168211 | pedidos@lospastelesdelucho.com </p>
+    </footer>
+</body>
+
+</html>
