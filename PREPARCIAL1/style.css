@@ -1,0 +1,26 @@
+.carreras{
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+    color: #fff;
+
+}
+
+#titulo{
+    text-align: center;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    margin: 0%;
+}
+
+#carrera div:hover{
+    background-color: rgba(250, 250,250, .3); 
+}
+    
+footer{
+    display: grid;
+    background-color: rgb(240,240,240);
+    grid-template-columns: repeat(4,1fr);
+    padding: 20px;
+}
